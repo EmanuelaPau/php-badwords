@@ -15,14 +15,14 @@
 </head>
 <body>
     <h1>
-        Your Name is: <?php echo $name ?> 
+        Your Name is: <?php echo $name ?> ,is <?php echo strlen($name) ?> letters long
     </h1>
     <h1>
         Your Password is: <?php echo $password ?>
     </h1>
 
     <h1>
-        Your Name is: <?php echo $name ?> 
+        Your Name is: <?php echo $name ?>, is <?php echo strlen($name) ?> words long
     </h1>
     <h1>
         Your Password is: <?php echo $passwordCensored ?>

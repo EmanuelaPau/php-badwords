@@ -11,7 +11,7 @@
 <body>
     <form action="/php-badwords/server.php" method="POST">
         <label for="userName">Name</label>
-        <input type="text" name="userName" id="">
+        <input type="textarea" name="userName" id="">
         <label for="userName">Password</label>
         <input type="password" name="userPassword" id="">
         <button type="submit">send</button>
