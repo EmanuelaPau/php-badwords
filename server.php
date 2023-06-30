@@ -3,6 +3,7 @@
     $name= $_POST['userName'];
     $password= $_POST['userPassword'];
 
+    $passwordCensored = str_replace($password, '* * *', $password);
 ?>
 
 <!DOCTYPE html>
@@ -18,6 +19,13 @@
     </h1>
     <h1>
         Your Password is: <?php echo $password ?>
+    </h1>
+
+    <h1>
+        Your Name is: <?php echo $name ?> 
+    </h1>
+    <h1>
+        Your Password is: <?php echo $passwordCensored ?>
     </h1>
 </body>
 </html>
