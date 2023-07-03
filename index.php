@@ -9,7 +9,7 @@
     <title>My Form</title>
 </head>
 <body>
-    <form action="/php-badwords/server.php" method="POST">
+    <form action="./php-badwords/server.php" method="POST">
         <label for="userName">Name</label>
         <input type="textarea" name="userName" id="">
         <label for="userName">Password</label>
